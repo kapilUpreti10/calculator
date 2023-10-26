@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3em;
+    height: 90vh;
+    /* background-color: #AEC0D3; */
+    background:linear-gradient(45deg,#0a0a0a,#3a4452);
+
+}
+.container{
+  max-width: 350px;
+  border: 2px solid black;
+  border-radius: 10px;
+  /* box shadow ma negative value diyo mathi tra dekhinxa positive value diyo vane tala tra dekhinxa  */
+  box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 2); 
+   height: fit-content;
+}
+
+input{
+    width: 100%;
+    padding-inline: auto;
+    border: none;
+    cursor: pointer;
+   /* background-color: #AEC0D3;   */
+   background-color: #FFFFFF;
+  text-align: right;
+  /* background: transparent; */
+  padding-top: 0.9em;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);  
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 2.5rem;
+
+  
+
+}
+.calculationArea{
+    padding-block: 2em;
+     padding-inline: 1em; 
+     text-align: right;
+
+}
+button{
+    border: none;
+    width: 60px;
+    aspect-ratio: 1/1;
+    margin: 11px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    font-family: 'Poppins';
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: -5px -5px 15px rgba(64, 64, 64, 1)
+
+}
+.buttonPart{
+    margin-left:5px ;
+    margin-bottom: 1.2em;
+}
+.orange{
+    background-color: #F49754;
+}
+
+
+
+
+
